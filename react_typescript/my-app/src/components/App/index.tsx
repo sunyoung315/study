@@ -51,7 +51,7 @@ const AppLogo = styled.img`
   pointer-events: none;
 
   @media (prefers-reduced-motion: no-preference) {
-   animation: ${spinAnimation} infinite 20s linear;
+    animation: ${spinAnimation} infinite 20s linear;
   }
 `;
 
@@ -67,11 +67,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <AppLink
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <AppLink href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </AppLink>
       </Header>
